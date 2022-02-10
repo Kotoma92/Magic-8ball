@@ -2,6 +2,7 @@ const clickedBall = async () => {
 	ballAnimate = true;
 	textFadeOut = true;
 	textFadeIn = false;
+	clickDisable = true;
 	showView();
 	var ballValue =
 		ballTextArray[Math.floor(ballTextArray.length * Math.random())];
@@ -15,6 +16,7 @@ function ballTextFadeIn() {
 	ballAnimate = false;
 	textFadeOut = false;
 	textFadeIn = true;
+	clickDisable = false;
 	showView();
 }
 
