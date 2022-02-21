@@ -13,6 +13,7 @@ function showView() {
             ${textFadeIn ? 'class="fadeIn"' : ''}
             ${textFadeOut ? 'class="fadeOut"' : ''} 
             x="50%" y="50%" text-anchor="middle" font-size="8" font-family="Sans-Serif">${ballText}
+            
         </text>
     </svg>
 

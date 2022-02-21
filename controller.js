@@ -12,13 +12,15 @@ const clickedBall = async () => {
 	ballTextFadeIn();
 };
 
-function ballTextFadeIn() {
+const ballTextFadeIn = async () => {
 	ballAnimate = false;
 	textFadeOut = false;
 	textFadeIn = true;
+	showView();
+	await delay(2000);
 	clickDisable = false;
 	showView();
-}
+};
 
 //math funksjonen er referert fra https://stackoverflow.com/questions/1516695/js-math-random-for-array
 
